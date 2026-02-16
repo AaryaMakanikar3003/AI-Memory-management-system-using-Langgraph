@@ -18,6 +18,7 @@ Modular graph-based orchestration
 Scalable architecture for advanced workflows
 Clean separation of state, memory, and LLM layers
 
+📂 Project structure
 AI-Memory-management-system-using-Langgraph/
 │
 ├── app.py
@@ -35,7 +36,6 @@ AI-Memory-management-system-using-Langgraph/
 │       └── student_001.json
 │
 ├── evaluation/
-│   └── (evaluation scripts)
 │
 ├── .env
 ├── .gitignore
@@ -80,6 +80,7 @@ Long-term conversational agents
 Context-aware tutoring systems
 Memory-enabled chatbot frameworks
 Structured knowledge tracking
+
 
 
 
