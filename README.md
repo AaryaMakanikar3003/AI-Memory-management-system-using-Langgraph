@@ -19,23 +19,24 @@ Scalable architecture for advanced workflows
 Clean separation of state, memory, and LLM layers
 
 📂 Project structure
-AI-Memory-management-system-using-Langgraph/
+AI-Memory-management-system-using-Langgraph
 │
 ├── app.py
 ├── workflow.py
 ├── state.py
 ├── llm_node.py
 │
-├── graph/
+├── graph
 │   ├── __init__.py
 │   └── (graph node modules)
 │
-├── memory/
+├── memory
 │   ├── long_term_store.py
-│   └── user_data/
+│   └── user_data
 │       └── student_001.json
 │
-├── evaluation/
+├── evaluation
+│   └── (evaluation scripts)
 │
 ├── .env
 ├── .gitignore
@@ -80,6 +81,7 @@ Long-term conversational agents
 Context-aware tutoring systems
 Memory-enabled chatbot frameworks
 Structured knowledge tracking
+
 
 
 
