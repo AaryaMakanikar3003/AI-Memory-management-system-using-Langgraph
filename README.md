@@ -21,18 +21,27 @@ Clean separation of state, memory, and LLM layers
 📂 Project Structure
 AI-Memory/
 │
-├── app.py                # Entry point
-├── workflow.py           # Graph construction logic
-├── llm_node.py           # LLM interaction node
-├── state.py              # State schema definition
+├── Core Layer
+│   ├── app.py
+│   ├── workflow.py
+│   ├── state.py
+│   └── llm_node.py
 │
-├── graph/                # Graph orchestration modules
-├── memory/               # Persistent JSON user memory
-│   └── user_data/
+├── Graph Layer
+│   └── graph/
 │
-├── evaluation/           # Evaluation scripts (if applicable)
-├── .gitignore
-└── README.md
+├── Memory Layer
+│   └── memory/
+│       └── user_data/
+│
+├── Evaluation
+│   └── evaluation/
+│
+└── Configuration
+    ├── .env
+    ├── .gitignore
+    └── README.md
+
 
 ⚙️ Architecture
 The system follows a graph-based orchestration model:
@@ -72,4 +81,5 @@ Long-term conversational agents
 Context-aware tutoring systems
 Memory-enabled chatbot frameworks
 Structured knowledge tracking
+
 
